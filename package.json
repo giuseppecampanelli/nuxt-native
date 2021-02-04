@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-native",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "add:android": "npx cap add android",
+    "add:ios": "npx cap add ios",
+    "push": "nuxt build && nuxt generate && npx cap copy",
+    "launch:android": "npx cap open android",
+    "launch:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^2.4.6",
+    "@capacitor/core": "^2.4.6",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.3"
+  }
+}
