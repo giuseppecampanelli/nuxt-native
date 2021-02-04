@@ -1,3 +1,5 @@
+<p align="center"><img align="center" width="200" src="./.github/nuxt-native.png"/></p>
+
 # Nuxt Native
 
 Nuxt Native is a framework to build cross-platform native mobile applications using Vue via [Capacitor](https://github.com/ionic-team/capacitor). Nuxt Native is bundled with [Vuetify](https://github.com/vuetifyjs/vuetify) out of the box.
