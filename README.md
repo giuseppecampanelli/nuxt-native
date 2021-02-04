@@ -17,18 +17,31 @@ npm run dev
 ```
 
 ## Add Android/iOS
+
+Add Android and/or iOS to your Nuxt Native application.
+
 ```
 npm run add:android
 npm run add:ios
 ```
 
 ## Push Changes to Android/iOS
+
+Push any new changes from your Nuxt application to your Android/iOS.
+
 ```
 npm run push
 ```
 
 ## Launch on Androis/iOS
+
+Launch your Nuxt Native application on Android or iOS.
+
 ```
 npm run launch:android
 npm run launch:ios
 ```
+
+## License
+
+[MIT](https://github.com/themilanfan/nuxt-native/blob/master/LICENSE)
